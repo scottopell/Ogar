@@ -1,0 +1,15 @@
+{
+  "version": "v4",
+  "repo": "scottopell/DefinitelyTyped",
+  "ref": "master",
+  "path": "typings",
+  "bundle": "typings/tsd.d.ts",
+  "installed": {
+    "node/node.d.ts": {
+      "commit": "af81415504b4edce8dac8446d96857f8018c6e9f"
+    },
+    "ws/ws.d.ts": {
+      "commit": "34ae8420ec14158c1015882f876bbe99ad7110af"
+    }
+  }
+}
