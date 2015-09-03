@@ -106,7 +106,7 @@ export default class Tournament extends Mode{
     // Handles disconnections
     this.dcTime = gameServer.config.playerDisconnectTime;
     gameServer.config.playerDisconnectTime = 0;
-    gameServer.config.minMassDecay = gameServer.config.playerStartMass;
+    gameServer.config.playerMinMassDecay = gameServer.config.playerStartMass;
 
     this.prepTime = gameServer.config.tourneyPrepTime;
     this.endTime = gameServer.config.tourneyEndTime;
